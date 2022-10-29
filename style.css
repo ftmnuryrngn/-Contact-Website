@@ -1,0 +1,129 @@
+ *{
+    padding: 0;
+    margin: 0; 
+ }
+ /*Navbar*/
+ .banner{
+    height: 100vh;
+    width:100% ;
+    background-image:linear-gradient(  rgba(0, 0, 0,0.8) , rgba(0, 0, 0,0.8) ) 
+     ,url(./1.jpg );
+    background-position: center;
+    background-size: cover;
+}
+.navbar{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    padding: 32px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    border-radius: 50%;
+    cursor: pointer;
+}
+.navbar ul li {
+    display: inline-block;
+    margin: 0 6px;
+    padding: 15px;
+    list-style-type: none; 
+} 
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+    transition: box-shadow 1s   ,color 1s  ;
+}
+.navbar ul li a:hover{
+    color: #FF884B;
+    box-shadow: 2px 2px #FFD384;
+}
+/*Content*/
+.content{
+    width: 100vw;
+    position: absolute; 
+    top: 40%;
+    text-align: center;
+    color: #fff;
+}
+.content h1{
+    font-size: 35px; 
+}
+.content p{
+    margin: 20px auto;
+}
+.btn{
+    width: 200px;
+    padding: 15px 0;
+    margin: 20px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 15px;
+    background-color: #FF884B;
+    color: #FFf; 
+    font-weight: 250;
+    transition: 1s;
+    border:1px solid #FF884B;
+}
+.btn:hover{
+    color: #FFD384;
+    background-color: transparent;
+    border: 1px solid #FFD384;
+}
+/**İletisim Html**/
+.form-basligi{
+    text-align: center;
+    font-size: 40px;
+    color: #4C0033;
+}
+.iletisim-form{
+   width: 520px;
+   margin: auto;
+}
+.iletisim-form label,
+.iletisim-form input,
+.iletisim-form select{
+    display: block;
+    width: 100%;
+    margin-top: 35px;
+}
+.iletisim-form button[type="submit"]{
+    display: block;
+    margin-top: 35px;  
+}
+.iletisim-form input,
+.iletisim-form select{
+   border: 2px solid #4C0033;
+   padding: 10px 15px; 
+}
+input:focus{
+    outline: none;
+    border: 15px solid #AF0171;
+    color: #000;
+}
+.iletisim-sayfasi{
+    padding-top: 4%;
+}
+label{
+    font-size: 25px;
+}
+.btn-2{
+    width: 180px;
+    padding: 15px 0;
+    border-radius:35px;
+    margin: 20px;
+    margin-left: 165px;
+    text-align: center;
+    color: #fff;
+    background-color: #4C0033;
+    border: 1px solid #4C0033;
+    cursor: pointer;
+    font-weight:400;
+    transition: 1s ;
+}
+.btn-2:hover{
+    color: #4C0033;
+    background-color: transparent;
+}
+
+ 
